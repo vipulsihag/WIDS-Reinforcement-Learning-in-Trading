@@ -17,10 +17,10 @@ This repo contains multiple files and each is explained in some detail below
 - implements the optimistic greedy algorithm.
 - And plots the cumulative average of rewards as the number of iterations increases for an optimistic greedy with Q_1 = 10 and a non-optimistic epsilon = 0.1 (both averaged over 20 runs)
 
-## modeling_environments.py
-- prints the state space of slippery bandit walk
-- prints the state space of frozen lake grid walk
-
 ## UCB.py
 - implements the upper confidence bound algorithm
 - And plots the cumulative reward average of 1000 iterations averaged over 100 runs for 3 values of c.
+
+## MDP_environments.py
+- prints the state space of slippery bandit walk
+- prints the state space of frozen lake grid walk
