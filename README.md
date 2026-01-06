@@ -5,12 +5,12 @@ This repo contains multiple files and each is explained in some detail below
 
 ## greedy.py
 - implements the greedy algorithm.
-- And plots the cumulative reward of 1000 iterations averaged over 100 runs
+- And plots the cumulative reward average of 1000 iterations averaged over 100 runs
 
 ## epsilon_greedy.py
 - implements the epsilon greedy algorithm
-- And plots the cumulative reward of 1000 iterations averaged over 100 runs for 5 values of epsilon.
-- And plots the cumalative reward avg at 1000-th step for epsilon between 0 and 1. (each averaged over 20 runs)
+- And plots the cumulative reward average of 1000 iterations averaged over 100 runs for 5 values of epsilon.
+- And plots the cumalative reward average at 1000-th step for epsilon between 0 and 1. (each averaged over 20 runs)
 - And prints the optimal epsilon
 
 ## optimistic_greedy.py
@@ -20,3 +20,7 @@ This repo contains multiple files and each is explained in some detail below
 ## modeling_environments.py
 - prints the state space of slippery bandit walk
 - prints the state space of frozen lake grid walk
+
+## UCB.py
+- implements the upper confidence bound algorithm
+- And plots the cumulative reward average of 1000 iterations averaged over 100 runs for 3 values of c.
