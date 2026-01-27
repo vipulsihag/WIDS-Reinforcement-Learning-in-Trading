@@ -24,3 +24,12 @@ This repo contains multiple files and each is explained in some detail below
 ## MDP_environments.py
 - prints the state space of slippery bandit walk
 - prints the state space of frozen lake grid walk
+
+## Final_Project (Reinforcement Learning Based Trading Agent)
+- implements a Q-learning based trading agent on real stock market data
+- uses historical closing prices downloaded via `yfinance`
+- defines a custom trading environment with actions: Hold, Buy, Sell
+- trains the agent using an epsilon-greedy policy with epsilon decay
+- evaluates the trained agent on the same price series without exploration
+- prints the final portfolio value after training
+- compares performance against a Buy-and-Hold baseline strategy
